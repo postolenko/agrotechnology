@@ -907,11 +907,11 @@ a:active {
 
 .slide-content p {
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 27px;
+    line-height: 35px;
     font-weight: 300;
     color: #ffffff;
-    padding: 30px 0 20px 0;
+    padding: 23px 0 15px 0;
 }
 
 .main-slider .slick-dots {
