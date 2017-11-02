@@ -13,6 +13,8 @@ $(document).ready(function() {
 
     getMainNavLinksParams();
 
+    getMainSliderHeigth();
+
     getFooterPosition();
 
     $(window).resize(function() {
@@ -24,6 +26,10 @@ $(document).ready(function() {
         });
 
         getMainNavLinksParams();
+
+        // ------------------------------
+
+        getMainSliderHeigth();
 
         // ------------------------------
 
@@ -53,6 +59,28 @@ $(document).ready(function() {
 
             $(this).css({
                 "width" : widthActive + "px"
+            });
+
+        });
+
+    }
+
+    function getMainSliderHeigth() {
+
+        var mainSlider = $(".main-slider");
+
+        var slideHeight = $(window).height() - $(".header-site").height();
+
+        if( slideHeight < 450 ) {
+            slideHeight = 450;
+        }
+
+        mainSlider.find(".slide").each(function() {
+
+            $(this).css({
+
+                "height" : slideHeight + "px"
+
             });
 
         });

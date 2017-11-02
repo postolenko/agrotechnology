@@ -20,7 +20,7 @@ $(document).ready(function() {
 			speed: 1200,
 			slidesToShow: 1,
 			fade: true,
-			appendArrows: $(".main-slider-arrows")
+			appendArrows: $(".main-slider-arrows .row")
 		});
 
 	}

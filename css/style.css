@@ -923,12 +923,18 @@ a:active {
 }
 
 .main-slider-arrows {
-    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+}
+
+.main-slider-arrows .row {
     height: 0;
-    max-width: 1170px;
-    top: -201px;
-    margin: 0 auto;
     position: relative;
+    padding: 0;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 /*-- /Section 1 - Main Page --*/
