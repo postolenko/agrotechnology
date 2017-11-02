@@ -160,13 +160,13 @@ textarea:focus:-ms-input-placeholder      {opacity: 0; transition: opacity .3s e
 
 section {
     position: relative;
-    padding: 30px 0 10px 0;
+    padding: 30px 0;
 }
 
 h1 {
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 64px;
-    line-height: 77px;
+    font-size: 58px;
+    line-height: 70px;
     font-weight: 400;
     color: #424242;
 }
@@ -181,24 +181,24 @@ h2 {
 
 h3 {
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 28px;
+    line-height: 36px;
     font-weight: 700;
     color: #424242;
 }
 
 h4 {
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 20px;
+    line-height: 25px;
     font-weight: 700;
     color: #424242;
 }
 
 h4.italic {
     font-family: "PT Serif", Arial, Verdana, sans-serif;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 32px;
     font-weight: 400;
     font-style: italic;
     color: #4A4A4A;
@@ -206,32 +206,32 @@ h4.italic {
 
 h5 {
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 15px;
+    line-height: 18px;
     font-weight: 700;
     color: #424242;
 }
 
 h6 {
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 13px;
+    line-height: 16px;
     font-weight: 300;
     color: #424242;
 }
 
 p {
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 15px;
+    line-height: 29px;
     font-weight: 400;
     color: #4A4A4A;
 }
 
 a {
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 15px;
+    line-height: 15px;
     font-weight: 400;
     color: #4A4A4A;
 }
@@ -593,17 +593,17 @@ a:active {
 }
 
 .header-row-1 {
-    padding: 10px 0 11px 0;
+    padding: 5px 0;
 }
 
 .header-row-1 .col {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 6px;
 }
 
 .header-row-1 .col-1 {
     width: 20%;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-right: 1%;
 }
 
@@ -739,8 +739,8 @@ a:active {
 /* ----- Main Navigation ------ */
 
 .main-nav-block {
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin-top: 8px;
+    margin-bottom: 7px;
     padding: 0 9px;
 }
 
@@ -763,7 +763,7 @@ a:active {
     display: inline-block;
     vertical-align: top;
     position: relative;
-    padding: 0 0 15px 0;
+    padding: 0 0 10px 0;
     text-transform: uppercase;
     font-family: "Roboto", Arial, Verdana, sans-serif;
     font-size: 16px;
@@ -853,7 +853,7 @@ a:active {
 }
 
 .main-slider .slide {
-    height: 647px;
+    height: 500px;
     overflow: hidden;
     position: relative;
     background: #ededed;
@@ -892,7 +892,7 @@ a:active {
     top: 50%;
     left: 0;
     z-index: 2;
-    padding: 20px 0 47px 0;
+    padding: 23px 0 47px 0;
     text-align: center;
     -webkit-transform: translate(0, -50%);
     -moz-transform: translate(0, -50%);
@@ -911,13 +911,13 @@ a:active {
     line-height: 38px;
     font-weight: 300;
     color: #ffffff;
-    padding: 47px 0 20px 0;
+    padding: 30px 0 20px 0;
 }
 
 .main-slider .slick-dots {
     width: 100%;
     position: absolute;
-    bottom: 82px;
+    bottom: 43px;
     left: 0;
     z-index: 2;
 }
@@ -926,8 +926,8 @@ a:active {
     padding: 0;
     height: 0;
     max-width: 1170px;
-    top: -323px;
-    margin: -20px auto 0 auto;
+    top: -251px;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -941,7 +941,7 @@ a:active {
 }
 
 .main-article h4 {
-    padding: 5px 0 14px 0;
+    padding: 3px 0 9px 0;
 }
 
 .main-article h4 + h4.italic {
@@ -949,19 +949,19 @@ a:active {
 }
 
 .main-article h4.italic {
-    padding: 0 0 11px 0;
+    padding: 5px 0 3px 0;
 }
 
 .main-article p {
-    padding: 8px 0;
+    padding: 7px 0;
 }
 
 .main-article h4 {
-    padding: 5px 0 14px 0;
+    padding: 6px 0 4px 0;
 }
 
 .main-article .important {
-    margin: 54px 0;
+    margin: 27px 0;
 }
 
 .main-article .important p {
@@ -991,14 +991,14 @@ a:active {
 
 .brands-thumbs {
     width: 108%;
-    margin: 0 0 4px -4%;
+    margin: 23px 0 4px -4%;
 }
 
 .brand-th {
     display: inline-block;
     vertical-align: top;
     width: 33.33%;
-    margin: 70px 0 71px 0;
+    margin: 40px 0 47px 0;
     padding: 0 4%;
     text-align: center;
 }
@@ -1008,7 +1008,7 @@ a:active {
 }
 
 .brand-th .img-box {
-    height: 152px;
+    height: 112px;
     overflow: hidden;
 }
 
@@ -1119,7 +1119,7 @@ footer {
 }
 
 .footer-row-2 {
-    padding: 10px 0 18px 0;
+    padding: 10px 0 14px 0;
 }
 
 .footer-row-2 .col {
@@ -1137,8 +1137,8 @@ footer {
 .copy {
     text-transform: uppercase;
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 16px;
-    line-height: 17px;
+    font-size: 14px;
+    line-height: 16px;
     font-weight: 300;
     color: #424242;
 }
