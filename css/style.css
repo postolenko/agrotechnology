@@ -165,40 +165,40 @@ section {
 
 h1 {
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 58px;
-    line-height: 70px;
+    font-size: 56px;
+    line-height: 67px;
     font-weight: 400;
     color: #424242;
 }
 
 h2 {
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 37px;
+    line-height: 45px;
     font-weight: 400;
     color: #424242;
 }
 
 h3 {
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 27px;
+    line-height: 34px;
     font-weight: 700;
     color: #424242;
 }
 
 h4 {
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 19px;
+    line-height: 23px;
     font-weight: 700;
     color: #424242;
 }
 
 h4.italic {
     font-family: "PT Serif", Arial, Verdana, sans-serif;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 19px;
+    line-height: 31px;
     font-weight: 400;
     font-style: italic;
     color: #4A4A4A;
@@ -206,32 +206,32 @@ h4.italic {
 
 h5 {
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 13px;
+    line-height: 16px;
     font-weight: 700;
     color: #424242;
 }
 
 h6 {
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 14px;
     font-weight: 300;
     color: #424242;
 }
 
 p {
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 15px;
-    line-height: 29px;
+    font-size: 14px;
+    line-height: 27px;
     font-weight: 400;
     color: #4A4A4A;
 }
 
 a {
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 14px;
+    line-height: 14px;
     font-weight: 400;
     color: #4A4A4A;
 }
@@ -245,8 +245,8 @@ ol li {
     list-style: none;
     padding-left: 28px;
     font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 28px;
     font-weight: 400;
     color: #4A4A4A;
 }
@@ -1008,7 +1008,7 @@ a:active {
 }
 
 .brand-th .img-box {
-    height: 112px;
+    height: 103px;
     overflow: hidden;
 }
 
