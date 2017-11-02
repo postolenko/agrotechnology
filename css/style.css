@@ -917,7 +917,7 @@ a:active {
 .main-slider .slick-dots {
     width: 100%;
     position: absolute;
-    bottom: 68px;
+    bottom: 70px;
     left: 0;
     z-index: 2;
 }
