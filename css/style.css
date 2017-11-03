@@ -1403,10 +1403,9 @@ ol {
 }
 
 .article .img-box {
-    width: 56%;
+    width: 55%;
     min-height: 300px;
-    margin: 13px 0;
-    padding: 0 1% 0 0;
+    margin: 13px 1% 13px 0;
 }
 
 .article .img-box img {
