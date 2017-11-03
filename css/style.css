@@ -70,8 +70,6 @@ body {
 * html .clearfix             { zoom: 1; }
 *:first-child+html .clearfix { zoom: 1; }
 
-
-
 ::-webkit-input-placeholder {color:#a5abb8;}
 ::-moz-placeholder          {color:#a5abb8;}
 :-moz-placeholder           {color:#a5abb8;}
@@ -1367,6 +1365,11 @@ h4 + p {
     font-weight: 400;
     color: #ffffff;
 }
+
+.form-block ::-webkit-input-placeholder {color:#ffffff;}
+.form-block ::-moz-placeholder          {color:#ffffff;}
+.form-block :-moz-placeholder           {color:#ffffff;}
+.form-block :-ms-input-placeholder      {color:#ffffff;}
 
 .form-block .white-pill {
     margin: 23px 0;
