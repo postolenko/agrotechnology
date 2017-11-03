@@ -1377,6 +1377,129 @@ h4 + p {
 
 /*-- /Section 4 Stenbauer Page --*/
 
+/*-- Section 2 Amazone Page --*/
+
+.important + p {
+    margin: 20px 0 0 0;
+}
+
+h4 {
+    padding: 30px 0 10px 0;
+}
+
+ol {
+    padding: 5px 0;
+}
+
+.article {
+    border-bottom: 1px solid #95989A;
+    margin: 35px 0 0 0;
+    padding: 0 0 34px 0;
+}
+
+.article:last-child {
+    border-bottom: none;
+    padding-bottom: 5px;
+}
+
+.article .img-box {
+    width: 56%;
+    min-height: 300px;
+    margin: 13px 0;
+    padding: 0 1% 0 0;
+}
+
+.article .img-box img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+/*.article img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-width: 56%;
+    max-width: 100%;
+    margin: 13px 1% 13px 0;
+}*/
+
+.article h4 {
+    padding: 0 0 20px 0;
+}
+
+.article h4 + p {
+    padding: 0;
+}
+
+/*-- /Section 2 Amazone Page --*/
+
+/*-- Section 3 Amazone Page --*/
+
+.info-block {
+    background: #030850;
+    padding: 10px 0 20px 0;
+}
+
+.info-block p {
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #CFCECE;
+    padding: 2px 0;
+}
+
+.info-block a {
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    color: #CFCECE;
+    border-bottom: 1px solid transparent;
+
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: all;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: all;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: all;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.info-block a:link,
+.info-block a:visited {
+    border-bottom: 1px solid transparent;
+}
+
+.info-block a:active,
+.info-block a.active {
+    border-bottom: 1px solid #CFCECE;
+}
+
+.info-block a:hover {
+    border-bottom: 1px solid #CFCECE;
+}
+
+.info-block p a {
+    margin: 0 1%;
+}
+
+/*-- /Section 3 Amazone Page --*/
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
