@@ -238,26 +238,19 @@ li {
     list-style: none;
 }
 
+ol {
+    padding-right: 15px !important;
+}
+
 ol li {
-    position: relative;
-    list-style: none;
-    padding-left: 28px;
     font-family: "Roboto", Arial, Verdana, sans-serif;
     font-size: 14px;
     line-height: 28px;
     font-weight: 400;
     color: #4A4A4A;
-}
-
-ol li:before {
-    display: block;
-    content: "";
-    width: 8px;
-    height: 17px;
-    background: #FF0000;
-    position: absolute;
-    top: 7px;
-    left: 0;
+    position: relative;
+    left: 15px;
+    list-style: square url("../img/list_mark.png");
 }
 
 a {
@@ -1393,7 +1386,7 @@ ol {
 
 .article {
     border-bottom: 1px solid #95989A;
-    margin: 35px 0 0 0;
+    margin: 26px 0 0 0;
     padding: 0 0 34px 0;
 }
 
@@ -1402,21 +1395,24 @@ ol {
     padding-bottom: 5px;
 }
 
-.article .img-box {
+/*.article .img-box {
     width: 55%;
     min-height: 300px;
-    margin: 13px 1% 13px 0;
+    margin: 13px 2% 13px 0;
+    overflow: hidden;
 }
-
-.article .img-box img {
+*/
+.article img {
     display: block;
     width: auto;
     height: auto;
-    max-width: 100%;
+    /*max-width: 100%;*/
+    max-width: 55%;
+    margin: 13px 2% 13px 0;
 }
 
 .article h4 {
-    padding: 0 0 20px 0;
+    padding: 9px 0 20px 0;
 }
 
 .article h4 + p {
