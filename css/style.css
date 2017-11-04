@@ -1486,6 +1486,189 @@ ol {
 
 /*-- /Section 3 Amazone Page --*/
 
+
+/*-- Section 2 Geringhoff Page --*/
+
+.thumbnails {
+
+}
+
+.thumb-1 {
+    width: 50%;
+    float: left;
+}
+
+.thumbnails .thumb-1:nth-child(odd) {
+    padding-right: 2%;
+}
+
+.thumbnails .thumb-1:nth-child(even) {
+    padding-left: 2%;
+}
+
+.thumb-1 .inner {
+
+}
+
+.thumb-1 .img-box {
+    display: block;
+    height: 294px;
+    overflow: hidden;
+    margin: 0 0 13px 0;
+    padding: 0;
+}
+
+.thumb-1 .img-box img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    border: none;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, --50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/*-- /Section 2 Geringhoff Page --*/
+
+/*-- Section 3 Geringhoff Page --*/
+
+.border-top {
+    border-top: 1px solid #95989A;
+}
+
+.thumbnails_2-wrapp {
+    overflow: hidden;
+}
+
+.thumbnails_2-wrapp .thumbnails_2 {
+    width: 102%;
+    margin: 0 0 0 -1%;
+}
+
+.thumbnail_2 {
+    width: 33.33%;
+    float: left;
+    margin: 18px 0;
+    padding: 0 1%; 
+}
+
+.thumbnail_2 .inner {
+
+}
+
+.thumbnail_2 .img-box {
+    height: 245px;
+    overflow: hidden;
+    border: 1px solid #95989A;
+    background: #95989A;
+}
+
+.thumbnail_2 .img-box img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    border: none;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, --50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.thumbnail_2 h4 {
+    display: block;
+    min-height: 47px;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.thumbnail_2 ol {
+    padding: 0;
+}
+
+.thumbnail_2 ol li {
+    list-style: none;
+    padding: 0;
+    left: 0;
+    line-height: 23px;
+}
+
+.thumbnail_2 ol li:before {
+    display: inline-block;
+    vertical-align: top;
+    content: "\2212";
+    position: relative;
+    top: 6px;
+    margin: 0 3px 0 0;
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #4A4A4A;
+}
+
+.thumbnail_2 p {
+    padding: 0;
+    line-height: 23px;
+    color: #4A4A4A;
+}
+
+/*-- /Section 3 Geringhoff Page --*/
+
+/*-- Section 4 Geringhoff Page --*/
+
+.article_2 {
+    margin: 20px 0;
+    border-bottom: 1px solid #95989A;
+}
+
+.single-img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+.thumbnails_3 {
+    margin: 10px 0;
+}
+
+.thumbnails_3 .col {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    /*float: left;*/
+    margin: 10px 0;
+    padding: 0;
+}
+
+.thumbnails_3 .col:nth-child(odd) {
+    padding-right: 2%;
+    padding-left: 0;
+}
+
+.thumbnails_3 .col:nth-child(even) {
+    padding-right: 0;
+    padding-left: 2%;
+}
+
+/*-- /Section 4 Geringhoff Page --*/
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
