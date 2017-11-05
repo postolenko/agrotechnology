@@ -2032,6 +2032,72 @@ h3 + .important {
 
 /*-- /Section 1 Schulte_2 Page --*/
 
+/*-- Section 1 Horsch Page --*/
+
+.thumbnails_6-wrapp {
+    overflow: hidden;
+}
+
+.thumbnails_6 {
+    width: 102%;
+    margin: 0 0 16px -1%;
+}
+
+.thumb_6 {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    margin: 12px 0;
+    padding: 0 1%;
+}
+
+.thumb_6 .inner {
+    display: block;
+    text-align: center;
+}
+
+.thumb_6 .img-box {
+    height: 368px;
+    overflow: hidden;
+    margin: 0 0 10px 0;
+    border: 1px solid #95989A;
+}
+
+.thumb_6 .img-box img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    border: none;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, --50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.thumb_6 .p-1 {
+    text-align: center;
+    min-height: 36px;
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 700;
+    color: #424242;
+}
+
+.thumb_6_desc {
+    text-align: left;
+    padding: 0 0 0 31%;
+}
+
+/*-- /Section 1 Horsch Page --*/
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
