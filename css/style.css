@@ -1875,6 +1875,43 @@ ol.mark-none li {
 
 /*-- /Section 1 Ziegler Page --*/
 
+/*-- Section 1 Kuhn Page --*/
+
+.article_4 {
+    border-bottom: 1px solid #95989A;
+    margin: 20px 0 0 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.article_4 img {
+    display: block;
+    width: 40%;
+    border: 1px solid #95989A;
+    /*float: right;*/
+}
+
+.article_4:nth-child(odd) img {
+    display: block;
+    width: 40%;
+    float: right;
+    margin: 0 0 11px 2%;
+}
+
+.article_4:nth-child(even) img {
+    display: block;
+    width: 40%;
+    float: left;
+    margin: 0 2% 11px 0;
+}
+
+.article_4 h4 {
+    padding-top: 0;
+}
+
+
+/*-- /Section 1 Kuhn Page --*/
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/

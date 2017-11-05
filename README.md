@@ -4,3 +4,4 @@
 # http://postolenko.github.io/agrotechnology/grimme.html
 # http://postolenko.github.io/agrotechnology/geringhoff.html
 # http://postolenko.github.io/agrotechnology/ziegler.html
+# http://postolenko.github.io/agrotechnology/kuhn.html
