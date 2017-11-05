@@ -310,10 +310,6 @@ h6 + ol {
     margin-top: 2px;
 }
 
-.top-none {
-    padding-top: 0;
-}
-
 /*------------------------------------*/
 
 .important {
@@ -1775,6 +1771,10 @@ ol {
     left: 0;
     z-index: -1;
     opacity: .01;
+}
+
+.tab .article_3 {
+    margin: 30px 0 0 0;
 }
 
 .article_3 {
