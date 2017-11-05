@@ -1884,6 +1884,10 @@ ol.mark-none li {
     padding-bottom: 20px;
 }
 
+.article_4:last-child {
+    border-bottom: transparent;
+}
+
 .article_4 img {
     display: block;
     width: 40%;
