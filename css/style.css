@@ -2092,8 +2092,13 @@ h3 + .important {
 }
 
 .thumb_6_desc {
+    text-align: center;
+}
+
+.thumb_6_desc .desc-inner {
+    display: inline-block;
+    vertical-align: top;
     text-align: left;
-    padding: 0 0 0 31%;
 }
 
 /*-- /Section 1 Horsch Page --*/
