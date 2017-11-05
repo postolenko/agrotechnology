@@ -5,3 +5,4 @@
 # http://postolenko.github.io/agrotechnology/geringhoff.html
 # http://postolenko.github.io/agrotechnology/ziegler.html
 # http://postolenko.github.io/agrotechnology/kuhn.html
+# http://postolenko.github.io/agrotechnology/schulte.html
