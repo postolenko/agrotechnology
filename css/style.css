@@ -1774,8 +1774,12 @@ ol {
 }
 
 .tab .article_3 {
-    margin: 30px 0 0 0;
+    margin: 30px 0 10px 0;
 }
+
+ .article_3 + h4 {
+    padding-top: 0;
+ }
 
 .article_3 {
     margin: 20px 0;
