@@ -1407,7 +1407,8 @@ ol {
     width: auto;
     height: auto;
     /*max-width: 100%;*/
-    max-width: 55%;
+    /*max-width: 55%;*/
+    max-width: 30%;
     margin: 13px 2% 13px 0;
 }
 
@@ -1640,7 +1641,8 @@ ol {
     display: block;
     width: auto;
     height: auto;
-    max-width: 100%;
+    /*max-width: 100%;*/
+    max-width: 45%;
     margin: 10px auto;
 }
 
