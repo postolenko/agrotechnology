@@ -302,6 +302,18 @@ a:active {
     text-transform: uppercase;
 }
 
+h4 + h6 {
+    padding-top: 5px;
+}
+
+h6 + ol {
+    margin-top: 2px;
+}
+
+.top-none {
+    padding-top: 0;
+}
+
 /*------------------------------------*/
 
 .important {
@@ -1670,6 +1682,194 @@ ol {
 }
 
 /*-- /Section 4 Geringhoff Page --*/
+
+/*-- Section 1 Ziegler Page --*/
+
+.tabs {
+    margin: 12px 0;
+}
+
+.tabs-links {
+    width: 100%;
+    border-bottom: 1px solid #cecece;
+    text-align: center;
+}
+
+.tabs-links li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.tabs-links li label.tab-link {
+    display: block;
+    padding: 15px 28px;
+    position: relative;
+    cursor: pointer;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-bottom: none;
+    font-family: "Lato", Arial, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+    color: #A6A6A6;
+
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: all;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: all;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: all;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.tabs-links li label.tab-link.active {
+    border-top: 1px solid #cecece;
+    border-left: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    border-bottom: none;
+    color: #424242;
+}
+
+.tabs-links li label.tab-link.active:after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #ffffff;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+.tab-wrapp .tab {
+    display: none;
+    padding: 20px 0;
+}
+
+.tab-wrapp .radio-tab:checked + .tab {
+    display: block;
+}
+
+.tab-wrapp {
+    position: relative;
+}
+
+.tab-wrapp .radio-tab {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: .01;
+}
+
+.article_3 {
+    margin: 20px 0;
+}
+
+.article_3 .col {
+    width: 50%;
+}
+
+.article_3 .col:nth-child(odd) {
+    padding-right: 2%;
+}
+
+.article_3 .col:nth-child(even) {
+    padding-left: 2%;
+}
+
+img.full-width {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.thumbnails_4 {
+    margin: 0 0 10px 0;
+}
+
+.thumb_4 {
+    width: 50%;
+    margin: 10px 0;
+}
+
+.thumbnails_4 .thumb_4:nth-child(odd) {
+    float: left;
+    padding-right: 2%;
+}
+
+.thumbnails_4 .thumb_4:nth-child(even) {
+    float: right;
+    padding-left: 2%;
+}
+
+.thumb_4 .img-box {
+    display: block;
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    background: #95989A;
+    border: 1px solid #95989A;
+}
+
+.thumb_4 .img-box img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    border: none;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, --50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+ol.mark-none {
+    padding-right: none;
+}
+
+ol.mark-none li {
+    list-style: none;
+    list-style-image: none;
+    left: 0;
+}
+
+.video-block-small {
+
+}
+
+.video-block-small iframe {
+    display: block;
+    width: 100%;
+    max-width: 868px;
+    height: 496px;
+    margin: 0 auto;
+    border: none;
+}
+
+/*-- /Section 1 Ziegler Page --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */

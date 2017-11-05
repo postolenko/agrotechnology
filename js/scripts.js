@@ -46,7 +46,88 @@ $(document).ready(function() {
 
     $(function() {
 
+        var tabsParent;
+        var tabLink;
+        var attrForTabLink;
+        var activeTabRadio;
+        var activeTabs = [];
+        var activeFlag = true;
 
+        $(".tabs").each(function() {
+
+            $(this).find(".radio-tab").each(function() {                
+
+                if( $(this).attr("checked") ) {
+
+                    tabsParent = $(this).closest(".tabs");
+                    attrForTabLink = $(this).attr("id");
+                    tabsParent.find(".tab-link[for = '"+ attrForTabLink +"']").addClass("active");
+                    activeFlag = true;
+
+                } else {
+
+                    activeFlag = false;
+
+                }                
+
+            });
+
+            if(activeFlag == true) {
+
+                activeTabs.push( $(this).index(".tabs") );
+
+            } else {
+
+                activeTabs.push( false );
+
+            }
+
+        });
+
+
+        $(".tabs").each(function() {
+
+            if( activeTabs[$(this).index(".tabs")] !== $(this).index(".tabs") ) {
+
+                $(this).find(".tab-link:eq(0)").addClass("active");
+
+                activeTabRadio = $(this).find(".radio-tab").eq(0);
+
+                activeTabRadio.prop("checked", true);
+
+            }
+
+        });
+
+
+        $(".tab-link").click(function (e) {
+
+            if( $(this).hasClass("active") ) {
+
+                e.preventDefault();
+
+            } else {
+
+                tabsParent = $(this).closest(".tabs");
+                attrForTabLink = $(this).attr("for");
+                activeTabRadio = tabsParent.find(".radio-tab[id = '"+ attrForTabLink +"']");
+                activeTabRadio.prop("checked", true);
+
+                tabsParent.find(".tab-link").each(function () {
+                    
+                    if( $(this).hasClass("active") ) {
+
+                        $(this).removeClass("active")
+
+                    }
+
+                });
+
+                $(this).addClass("active");
+
+            }
+
+        });
 
     });
 
