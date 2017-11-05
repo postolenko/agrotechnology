@@ -6,3 +6,5 @@
 # http://postolenko.github.io/agrotechnology/ziegler.html
 # http://postolenko.github.io/agrotechnology/kuhn.html
 # http://postolenko.github.io/agrotechnology/schulte.html
+# http://postolenko.github.io/agrotechnology/schulte_2.html
+# http://postolenko.github.io/agrotechnology/schulte_3.html

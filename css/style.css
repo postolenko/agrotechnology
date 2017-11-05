@@ -2022,8 +2022,15 @@ ol.list_mark_2 li:before {
     color: #FFFFFF;
 }
 
-
 /*-- /Section 1 Schulte Page --*/
+
+/*-- Section 1 Schulte_2 Page --*/
+
+h3 + .important {
+    margin-top: 20px;
+}
+
+/*-- /Section 1 Schulte_2 Page --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
