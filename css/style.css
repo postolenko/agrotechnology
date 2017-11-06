@@ -2365,6 +2365,7 @@ h3 + .important {
 .article-6 img {
     float: right;
     max-width: 40%;
+    max-height: 360px;
     margin: 10px 0 15px 3%;
 }
 
