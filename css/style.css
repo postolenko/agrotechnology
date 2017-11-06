@@ -2160,6 +2160,45 @@ h3 + .important {
 
 /*-- /Section 1 Krone Page --*/
 
+/*-- Section 1 Parts Page --*/
+
+.thumbnails_8-wrapp {
+    overflow: hidden;
+}
+
+.thumbnails_8 {
+    width: 106%;
+    margin: 0 0 0 -3%;
+}
+
+.thumb_8 {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    margin: 23px 0;
+    padding: 0 3%;
+}
+
+.thumb_8 .inner {
+    text-align: center;
+}
+
+.thumb_8 .icon-box {
+    display: block;
+    height: 100px;
+    text-align: center;
+}
+
+.thumb_8 .icon-box img {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 80px;
+    max-height: 81px;
+}
+
+
+/*-- /Section 1 Parts Page --*/
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
