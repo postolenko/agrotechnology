@@ -11,3 +11,4 @@
 # http://postolenko.github.io/agrotechnology/horsch.html
 # http://postolenko.github.io/agrotechnology/krone.html
 # http://postolenko.github.io/agrotechnology/parts.html
+# http://postolenko.github.io/agrotechnology/lemken.html
