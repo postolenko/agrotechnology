@@ -12,3 +12,4 @@
 # http://postolenko.github.io/agrotechnology/krone.html
 # http://postolenko.github.io/agrotechnology/parts.html
 # http://postolenko.github.io/agrotechnology/lemken.html
+# http://postolenko.github.io/agrotechnology/service.html

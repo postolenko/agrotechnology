@@ -302,6 +302,10 @@ a:active {
     text-transform: uppercase;
 }
 
+.texttr-none {
+    text-transform: none !important;
+}
+
 h4 + h6 {
     padding-top: 5px;
 }
@@ -2256,6 +2260,32 @@ h3 + .important {
 }
 
 /*-- /Section 1 Lemken Page --*/
+
+/*-- Section 1 Service Page --*/
+
+.article-6 {
+    border-bottom: 1px solid #95989A;
+    margin: 26px 0 0 0;
+    padding: 0 0 22px 0;
+}
+
+.article-6:last-child {
+    border-bottom: none;
+    padding: 0 0 6px 0;
+}
+
+.article-6 p {
+    padding: 8px 0;
+    line-height: 23px;
+}
+
+.article-6 img {
+    float: right;
+    max-width: 40%;
+    margin: 10px 0 15px 3%;
+}
+
+/*-- /Section 1 Service Page --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
