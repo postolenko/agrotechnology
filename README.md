@@ -13,3 +13,4 @@
 # http://postolenko.github.io/agrotechnology/parts.html
 # http://postolenko.github.io/agrotechnology/lemken.html
 # http://postolenko.github.io/agrotechnology/service.html
+# http://postolenko.github.io/agrotechnology/contacts.html
