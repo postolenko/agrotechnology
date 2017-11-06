@@ -2196,8 +2196,66 @@ h3 + .important {
     max-height: 81px;
 }
 
-
 /*-- /Section 1 Parts Page --*/
+
+/*-- Section 1 Lemken Page --*/
+
+.thumbnails_9-wrapp {
+    overflow: hidden;
+}
+
+.thumbnails_9 {
+    width: 102%;
+    margin: 0 0 0 -1%;
+}
+
+.thumb_9 {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    margin: 20px 0;
+    padding: 0 1%;
+}
+
+.thumb_9 .inner {
+    text-align: center;
+}
+
+.thumb_9 .img-box {
+    height: 270px;
+    overflow: hidden;
+    background: #95989A;
+    margin: 0 0 13px 0;
+    border: 1px solid #95989A;
+}
+
+.thumb_9 .img-box img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    border: none;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, --50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.thumb_9 .p-1 {
+    font-family: "Roboto", Arial, Verdana, sans-serif;
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 700;
+    color: #424242;
+}
+
+/*-- /Section 1 Lemken Page --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
