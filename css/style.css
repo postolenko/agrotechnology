@@ -2397,6 +2397,38 @@ h3 + .important {
     padding: 0;
 }
 
+.contacts-txt p a {
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: all;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: all;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: all;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.contacts-txt p a:link,
+.contacts-txt p a:visited {
+    border-bottom: 1px solid transparent;
+}
+
+.contacts-txt p a.active,
+.contacts-txt p a:active {
+    border-bottom: 1px solid #424242;
+}
+
 .contacts-txt p a:hover {
     border-bottom: 1px solid #424242;
 }
