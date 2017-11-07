@@ -1722,6 +1722,8 @@ ol {
     height: auto;
     min-height: 100%;
     min-width: 100%;
+    max-width: initial;
+    max-height: initial;
     margin: 0;
     position: relative;
     top: 50%;
@@ -1752,8 +1754,9 @@ ol {
 }
 
 .thumbnail_2 {
+    display: inline-block;
+    vertical-align: top;
     width: 33.33%;
-    float: left;
     margin: 18px 0;
     padding: 0 1%; 
 }
@@ -1836,10 +1839,9 @@ ol {
 
 .single-img {
     display: block;
-    width: auto;
+    width: 100%;
     height: auto;
-    /*max-width: 100%;*/
-    max-width: 45%;
+    max-width: 600px;
     margin: 10px auto;
 }
 
