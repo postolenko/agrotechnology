@@ -106,6 +106,10 @@
 	    height: 325px;
 	}
 
+	.thumb_7 {
+	    width: 50%;
+	}
+
 }
 
 
@@ -492,6 +496,14 @@
 
 	.thumb_6 .img-box {
 	    height: 300px;
+	}
+
+	.thumb_7 {
+	    width: 100%;
+	}
+
+	.thumb_7 .img-box {
+	    height: 301px;
 	}
 
 }
