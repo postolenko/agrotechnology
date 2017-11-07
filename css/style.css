@@ -2470,7 +2470,8 @@ h3 + .important {
 
 .article-6 img {
     float: right;
-    max-width: 40%;
+    width: 100%;
+    max-width: 360px;
     max-height: 360px;
     margin: 10px 0 15px 3%;
 }
