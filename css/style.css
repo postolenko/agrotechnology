@@ -1365,7 +1365,8 @@ h6 + ol {
 /*-- Section 2 Stenbauer Page --*/
 
 .promo-image {
-    width: 50%;
+    width: 100%;
+    max-width: 700px;
     overflow: hidden;
     margin: 10px auto 43px auto;
 }
@@ -1470,7 +1471,8 @@ h4 + p {
 
 .video-block iframe {
     display: block;
-    width: 65%;
+    width: 100%;
+    max-width: 600px;
     height: 346px;
     border: none;
     margin: 0 auto;
