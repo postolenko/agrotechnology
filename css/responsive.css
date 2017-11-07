@@ -344,6 +344,14 @@
 	    margin: 0 0 24px 0;
 	}
 
+	.thub_5 .img-box {
+	    height: 249px;
+	}
+
+	.thub_5 p {
+	    font-size: 22px;
+	    line-height: 25px;
+	}
 
 	.footer-row-1 {
 		display: none;
@@ -449,6 +457,25 @@
 
 	.article_3 .col:nth-child(even) {
 	    padding-left: 0;
+	}
+
+	.thumbnails_5 {
+	    margin: 10px 0;
+	}
+
+	.thub_5 {
+	    display: block;
+	    width: 100%;
+	}
+
+	.thub_5:nth-child(odd) {
+	    float: none;
+	    padding: 13px 0;
+	}
+
+	.thub_5:nth-child(even) {
+	    float: none;
+	    padding: 13px 0;
 	}
 
 }
