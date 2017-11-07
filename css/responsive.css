@@ -98,6 +98,14 @@
 	    padding-left: 0%;
 	}
 
+	.thumb_6 {
+	    width: 50%;
+	}
+
+	.thumb_6 .img-box {
+	    height: 325px;
+	}
+
 }
 
 
@@ -476,6 +484,10 @@
 	.thub_5:nth-child(even) {
 	    float: none;
 	    padding: 13px 0;
+	}
+
+	.thumb_6 {
+	    width: 100%;
 	}
 
 }
