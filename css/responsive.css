@@ -110,6 +110,10 @@
 	    width: 50%;
 	}
 
+	.thumb_9 {
+	    width: 50%;
+	}
+
 }
 
 
@@ -508,6 +512,16 @@
 
 	.thumb_7 .img-box {
 	    height: 300px;
+	}
+
+	.thumbnails_9 {
+	    width: 100%;
+	    margin: 0;
+	}
+
+	.thumb_9 {
+	    width: 100%;
+	    padding: 0;
 	}
 
 }
