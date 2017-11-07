@@ -15,6 +15,24 @@ $(document).ready(function() {
 
     // ----------------------------
 
+
+    var tabsParent;
+    var tabLink;
+    var attrForTabLink;
+    var activeTabRadio;
+    var activeTabs = [];
+    var activeFlag = true;
+
+    // ----------------------------
+
+    var mainSlider;
+    var slideHeightMin;
+    var slideHeightArr;
+    var slideHeight;
+    var slideHeight;
+
+    // ----------------------------
+
     var widthActive;
 
     // ----------------------------
@@ -72,12 +90,12 @@ $(document).ready(function() {
 
     $(function() {
 
-        var tabsParent;
-        var tabLink;
-        var attrForTabLink;
-        var activeTabRadio;
-        var activeTabs = [];
-        var activeFlag = true;
+        // var tabsParent;
+        // var tabLink;
+        // var attrForTabLink;
+        // var activeTabRadio;
+        // var activeTabs = [];
+        // var activeFlag = true;
 
         $(".tabs").each(function() {
 
@@ -214,17 +232,15 @@ $(document).ready(function() {
 
     function getMainSliderHeigth() {
 
-        var mainSlider = $(".main-slider");
+        mainSlider = $(".main-slider");
 
-        var slideHeightMin = 450;
+        slideHeightMin = 450;
 
-        // var slideHeightDefault = $(window).height();
-
-        var slideHeightArr = [];
+        slideHeightArr = [];
 
         if( bodyWidth > 768 ) {
 
-            var slideHeight = $(window).height() - $(".header-site").height();
+            slideHeight = $(window).height() - $(".header-site").height();
 
             if( slideHeight < slideHeightMin ) {
                 slideHeight = slideHeightMin;
@@ -232,35 +248,15 @@ $(document).ready(function() {
 
         } else if ( bodyWidth <= 768) {
 
-            // var slideHeight = slideHeightDefault;
              mainSlider.find(".slide").each(function() {
 
                 slideHeightArr.push($(this).height());
 
             });
 
-            console.log(slideHeightArr);
-
-            var slideHeight = Math.max.apply(null, slideHeightArr);
-
-            console.log(slideHeight);
+            slideHeight = Math.max.apply(null, slideHeightArr);
 
         }
-        //  else {
-
-        //     mainSlider.find(".slide").each(function() {
-
-        //         slideHeightArr.push($(this).height());
-
-        //     });
-
-        //     console.log(slideHeightArr);
-
-        //     var slideHeight = Math.max.apply(null, slideHeightArr);
-
-        //     console.log(slideHeight);
-
-        // }
 
         mainSlider.find(".slide").each(function() {
 
