@@ -365,6 +365,10 @@
 	    line-height: 25px;
 	}
 
+	.thumb_8 {
+	    width: 50%;
+	}
+
 	.footer-row-1 {
 		display: none;
 	}
@@ -569,6 +573,15 @@
 
 	.video-block-small iframe {
 	    height: 263px;
+	}
+
+	.thumbnails_8 {
+	    width: 100%;
+	    margin: 0;
+	}
+
+	.thumb_8 {
+	    width: 100%;
 	}
 
 	.footer-row-2 {
