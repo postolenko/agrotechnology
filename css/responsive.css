@@ -330,6 +330,21 @@
 	    padding-right: 0;
 	}
 
+	.article_4:nth-child(odd) img {
+	    width: 100%;
+	    max-width: 400px;
+	    float: none;
+	    margin: 0 0 24px 0;
+	}
+
+	.article_4:nth-child(even) img {
+	    width: 100%;
+	    max-width: 400px;
+	    float: none;
+	    margin: 0 0 24px 0;
+	}
+
+
 	.footer-row-1 {
 		display: none;
 	}
@@ -444,6 +459,11 @@
 	h1 {
 	    font-size: 33px;
 	    line-height: 39px;
+	}
+
+	h4 {
+	    font-size: 18px;
+	    line-height: 23px;
 	}
 
 	.header-row-1 .col-1 {
