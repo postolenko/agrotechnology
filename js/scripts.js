@@ -7,6 +7,14 @@ $(document).ready(function() {
 
     // ----------------------------
 
+    var w = window,
+    d = document,
+    e = d.documentElement,
+    g = d.getElementsByTagName('body')[0],
+    bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
+
+    // ----------------------------
+
     var widthActive;
 
     // ----------------------------
@@ -14,6 +22,8 @@ $(document).ready(function() {
     getMainNavLinksParams();
 
     getMainSliderHeigth();
+
+    getWrapperoffset();
 
     getFooterPosition();
 
@@ -30,6 +40,22 @@ $(document).ready(function() {
         // ------------------------------
 
         getMainSliderHeigth();
+
+        // ------------------------------
+
+        getWrapperoffset();
+
+        // ------------------------------
+
+        $(".main-slider .slide").css({
+            "height" : "auto"
+        });
+
+        getMainSliderHeigth();
+
+        // ------------------------------
+
+        bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
         // ------------------------------
 
@@ -132,17 +158,57 @@ $(document).ready(function() {
     });
 
 
-    function getMainNavLinksParams() {
+     $(function() {
 
-        $(".main-nav li").each(function() {
+        $(".respmenubtn").click(function() {
 
-            widthActive = $(this).width() * 1.1;
+            if( $(".main-nav-block").is(":hidden") ) {
 
-            $(this).css({
-                "width" : widthActive + "px"
-            });
+                $(".main-nav-block").fadeIn(400);
+                $(this).addClass("active");
+
+            } else {
+
+                $(".main-nav-block").fadeOut(400);
+                $(this).removeClass("active");
+
+            }
 
         });
+
+        $(this).keydown(function(eventObject){
+
+            if (eventObject.which == 27) {
+
+                if ( $(".main-nav-block").is(":visible") ) {
+
+                    $(".main-nav-block").fadeOut(300);
+                    $(".respmenubtn").removeClass("active");
+
+                }
+
+            }
+
+        });
+
+    });
+
+
+    function getMainNavLinksParams() {
+
+        if( bodyWidth > 768 ) {
+
+            $(".main-nav li").each(function() {
+
+                widthActive = $(this).width() * 1.1;
+
+                $(this).css({
+                    "width" : widthActive + "px"
+                });
+
+            });
+
+        }
 
     }
 
@@ -150,11 +216,51 @@ $(document).ready(function() {
 
         var mainSlider = $(".main-slider");
 
-        var slideHeight = $(window).height() - $(".header-site").height();
+        var slideHeightMin = 450;
 
-        if( slideHeight < 450 ) {
-            slideHeight = 450;
+        // var slideHeightDefault = $(window).height();
+
+        var slideHeightArr = [];
+
+        if( bodyWidth > 768 ) {
+
+            var slideHeight = $(window).height() - $(".header-site").height();
+
+            if( slideHeight < slideHeightMin ) {
+                slideHeight = slideHeightMin;
+            }
+
+        } else if ( bodyWidth <= 768) {
+
+            // var slideHeight = slideHeightDefault;
+             mainSlider.find(".slide").each(function() {
+
+                slideHeightArr.push($(this).height());
+
+            });
+
+            console.log(slideHeightArr);
+
+            var slideHeight = Math.max.apply(null, slideHeightArr);
+
+            console.log(slideHeight);
+
         }
+        //  else {
+
+        //     mainSlider.find(".slide").each(function() {
+
+        //         slideHeightArr.push($(this).height());
+
+        //     });
+
+        //     console.log(slideHeightArr);
+
+        //     var slideHeight = Math.max.apply(null, slideHeightArr);
+
+        //     console.log(slideHeight);
+
+        // }
 
         mainSlider.find(".slide").each(function() {
 
@@ -168,6 +274,23 @@ $(document).ready(function() {
 
     }
 
+    function getWrapperoffset() {
+
+        if( bodyWidth <= 768 ) {
+
+            $(".wrapper").css({
+                "padding-top" : $(".header-site").height() + "px"
+            });
+
+        } else {
+
+            $(".wrapper").css({
+                "padding-top" : 0 + "px"
+            });
+
+        }
+
+    }
 
     function getFooterPosition() {
 

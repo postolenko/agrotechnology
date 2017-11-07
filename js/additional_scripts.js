@@ -1,12 +1,42 @@
 (function($){
 
-	$(window).on("load",function(){
+	var w = window,
+    d = document,
+    e = d.documentElement,
+    g = d.getElementsByTagName('body')[0],
+    bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;	
 
-		$(".scroll").mCustomScrollbar();
+	$(window).on("load",function() {
+
+		getScrollBar();
 
 	});
 
+	$(window).resize(function() {
+
+		bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
+
+		getScrollBar();
+
+	});
+
+	function getScrollBar() {
+
+		if( bodyWidth <= 768 ) {
+
+			$(".main-nav-block").mCustomScrollbar();			
+
+		} else {
+
+			$(".main-nav-block").mCustomScrollbar("destroy");
+
+		}
+
+	}
+
 })(jQuery);
+
+
 
 $(document).ready(function() {
 
@@ -25,4 +55,4 @@ $(document).ready(function() {
 
 	}
 
-})
+});
