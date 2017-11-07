@@ -2491,6 +2491,7 @@ h3 + .important {
 
 .map-block .col-1 {
     width: 40%;
+    padding-right: 2%;
 }
 
 .map-block .col-2 {
