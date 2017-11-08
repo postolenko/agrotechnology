@@ -486,6 +486,7 @@ h6 + ol {
 
 .slick-next svg {
     position: relative;
+    top: 2px;
     left: -1px;
 }
 
